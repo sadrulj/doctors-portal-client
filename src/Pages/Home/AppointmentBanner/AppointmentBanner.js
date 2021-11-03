@@ -28,7 +28,7 @@ const AppointmentBanner = () => {
           <Typography
             sx={{
               fontWeight: 500,
-              color: "#5CE7ED",
+              color: "#16D2D2",
               margin: "15px 0",
               textAlign: "left",
             }}
@@ -68,7 +68,7 @@ const AppointmentBanner = () => {
             style={{
               display: "flex",
               justifyContent: "flex-start",
-              backgroundColor: "#59DBDF",
+              backgroundColor: "#16D2D2",
               marginTop: "50px",
             }}
           >

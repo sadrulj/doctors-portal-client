@@ -48,7 +48,7 @@ const AvailableAppointments = ({ date }) => {
       <Typography
         variant="h4"
         style={{
-          color: "#18ffff",
+          color: "#16D2D2",
           margin: "40px 0",
           fontWeight: "bolder",
         }}
@@ -57,7 +57,7 @@ const AvailableAppointments = ({ date }) => {
       </Typography>
       <Grid container spacing={2}>
         {bookings.map((booking) => (
-          <Booking key={booking.id} booking={booking} time></Booking>
+          <Booking key={booking.id} booking={booking} date={date}></Booking>
         ))}
       </Grid>
     </Container>

@@ -42,7 +42,7 @@ const Banner = () => {
             <Button
               variant="contained"
               sx={{
-                backgroundColor: "#18ffff",
+                backgroundColor: "#16D2D2",
                 display: "flex",
                 justifyContent: "flex-start",
                 marginTop: "40px",

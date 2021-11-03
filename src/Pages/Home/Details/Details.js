@@ -28,7 +28,7 @@ const Details = () => {
           <Item
             style={{
               ...varticalCenter,
-              backgroundColor: "#18ffff",
+              backgroundColor: "#16D2D2",
               color: "white",
               padding: "20px",
             }}
@@ -78,7 +78,7 @@ const Details = () => {
           <Item
             style={{
               ...varticalCenter,
-              backgroundColor: "#18ffff",
+              backgroundColor: "#16D2D2",
               color: "white",
               padding: "20px",
             }}

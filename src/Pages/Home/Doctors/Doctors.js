@@ -29,7 +29,7 @@ const Doctors = () => {
   return (
     <Container sx={{ flexGrow: 1, border: 0 }}>
       <Typography
-        sx={{ fontWeight: 500, color: "success.main", margin: "30px 0 30px 0" }}
+        sx={{ fontWeight: 500, color: "#16D2D2", margin: "30px 0 30px 0" }}
         variant="h6"
         component="div"
       >

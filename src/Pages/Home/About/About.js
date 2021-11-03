@@ -47,7 +47,7 @@ const About = () => {
           </Typography>
           <Button
             variant="contained"
-            style={{ backgroundColor: "#18ffff", marginTop: "30px" }}
+            style={{ backgroundColor: "#16D2D2", marginTop: "30px" }}
           >
             Learn More
           </Button>

@@ -34,7 +34,7 @@ const Services = () => {
     <Box sx={{ flexGrow: 1 }}>
       <Container>
         <Typography
-          sx={{ fontWeight: 500, color: "success.main", margin: "50px 0 0 0" }}
+          sx={{ fontWeight: 500, color: "#16D2D2", margin: "50px 0 0 0" }}
           variant="h6"
           component="div"
         >
