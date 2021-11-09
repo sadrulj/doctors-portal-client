@@ -12,8 +12,8 @@ const bannerBg = {
 const AppointmentHeader = ({ date, setDate }) => {
   return (
     <Box style={bannerBg} sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
-        <Grid xs={12} md={6} style={{ marginTop: "100px" }}>
+      <Grid container>
+        <Grid item xs={12} md={6} style={{ marginTop: "100px" }}>
           <Typography
             variant="h4"
             style={{ marginBottom: "100px", color: "#16D2D2" }}
@@ -22,7 +22,7 @@ const AppointmentHeader = ({ date, setDate }) => {
           </Typography>
           <Calander date={date} setDate={setDate} />
         </Grid>
-        <Grid xs={12} md={6}>
+        <Grid item xs={12} md={6}>
           <img
             style={{ width: "100%", marginTop: "100px" }}
             src={chair}

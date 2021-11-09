@@ -16,4 +16,3 @@ const Appointment = () => {
 };
 
 export default Appointment;
-<Navigation></Navigation>;
